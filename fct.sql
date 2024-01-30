@@ -1,4 +1,4 @@
--- Active: 1700690854633@@127.0.0.1@3306@fct
+-- Active: 1700668305200@@127.0.0.1@3306@pruebalaravel
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -46,18 +46,19 @@ CREATE TABLE `companies` (
 --
 
 INSERT INTO `companies` (`id`, `name`, `url`, `mode`, `description`, `created_at`, `updated_at`) VALUES
-(1, 'ATOS', 'https://atos.net/es/spain ', 'online', 'Desarrollo de aplicaciones a grandes empresas. Muy variadas dependiendo del proyecto.Java Spring, React / Angular,...\r\n', '2023-01-27 13:07:49', '2023-01-27 13:07:49'),
-(2, 'Lean Mind', 'https://leanmind.es/es/', 'online', 'Desarrollo de aplicaciones y asesoramiento a empresas de desarrollo. Software de calidad, principios de diseño, patrones, BDD, TDD, DDD, Typescript.\r\n', '2023-01-27 13:07:49', '2023-01-27 13:07:49'),
-(3, 'CodeBay', 'https://www.codebay-innovation.com/es/inicio/', 'semipresencial', 'Desarrollo de portales a grandes empresas\r\nCMS específico de Adobe.', '2023-01-27 13:09:57', '2023-01-27 13:09:57'),
-(4, 'Ayuntamiento de Adeje', 'https://www.adeje.es/', 'presencial', 'Gestión municipal. Desarrollo de aplicaciones propias.\r\n', '2023-01-27 13:09:57', '2023-01-27 13:09:57'),
-(5, 'STV', 'http://stvcanarias.com/ ', 'presencial', 'Distribución y reparación de máquinas de vending. Desarrollo de aplicaciones propias para la gestión de las reparaciones, etc.\r\n', '2023-01-27 13:11:36', '2023-01-27 13:11:36'),
-(6, 'GOWEB', 'https://www.goweb.es/', 'presencial', 'Mantenimiento tecnológico y desarrollo software Wordpress.\r\n', '2023-01-27 13:11:36', '2023-01-27 13:11:36'),
-(7, 'Akrolih', 'https://akrolih.com/', 'online', 'Asesoramiento, sitio web, comercio electrónico, CMS: Wordpress, PrestaShop (Modificar módulos) CRM a medida. Laravel\r\nSEO y marketing\r\n', '2023-01-27 13:13:03', '2023-01-27 13:13:03'),
-(8, 'Medano Solution', 'https://medanosol.es/es', 'online', 'Desarrollo de WebApp. React, typescript, tailwind, mongo, docker, graphQL\r\n', '2023-01-27 13:13:03', '2023-01-27 13:13:03'),
-(9, 'Conectatec', 'https://www.conectatec.com/ ', 'presencial', 'Innovación y marketing para hoteles. Desarrollo y mantenimiento de Webs, WebApps.', '2023-01-27 13:16:30', '2023-01-27 13:16:30'),
-(10, 'Blue Grow', 'https://thebluegrow.com/', 'online', 'Presencia Web y posicionamiento. Estrategias de marketing. Wordpress / Elementor / Plugins\r\nSEO y marketing Diseño web.\r\n', '2023-01-27 13:16:30', '2023-01-27 13:16:30'),
-(11, 'Nexo365', 'https://nexo365.com', 'presencial', 'Instalación y mantenimiento de alarmas, seguridad, TPV. Desarrollo de App propia (CRM)\r\n', '2023-01-27 13:17:58', '2023-01-27 13:17:58'),
-(12, 'Turitop', 'https://www.turitop.com/es/', 'online', 'Presencia Web y posicionamiento. Gestión de reserva de eventos. Wordpress / Módulos propios\r\n', '2023-01-27 13:17:58', '2023-01-27 13:17:58');
+(1, 'ATOS', 'https://atos.net/es/spain ', 'online', 'Desarrollo de aplicaciones a grandes empresas. Muy variadas dependiendo del proyecto.Java Spring, React / Angular,...\r\n', '2024-01-30 13:07:49', '2024-01-30 13:07:49'),
+(2, 'Lean Mind', 'https://leanmind.es/es/', 'online', 'Desarrollo de aplicaciones y asesoramiento a empresas de desarrollo. Software de calidad, principios de diseño, patrones, BDD, TDD, DDD, Typescript.\r\n', '2024-01-30 13:07:49', '2024-01-30 13:07:49'),
+(3, 'CodeBay', 'https://www.codebay-innovation.com/es/inicio/', 'semipresencial', 'Desarrollo de portales a grandes empresas\r\nCMS específico de Adobe.', '2024-01-30 13:09:57', '2024-01-30 13:09:57'),
+(4, 'Ayuntamiento de Adeje', 'https://www.adeje.es/', 'presencial', 'Gestión municipal. Desarrollo de aplicaciones propias.\r\n', '2024-01-30 13:09:57', '2024-01-30 13:09:57'),
+(5, 'STV', 'http://stvcanarias.com/ ', 'presencial', 'Distribución y reparación de máquinas de vending. Desarrollo de aplicaciones propias para la gestión de las reparaciones, etc.\r\n', '2024-01-30 13:11:36', '2024-01-30 13:11:36'),
+(6, 'GOWEB', 'https://www.goweb.es/', 'presencial', 'Mantenimiento tecnológico y desarrollo software Wordpress.\r\n', '2024-01-30 13:11:36', '2024-01-30 13:11:36'),
+(7, 'Akrolih', 'https://akrolih.com/', 'online', 'Asesoramiento, sitio web, comercio electrónico, CMS: Wordpress, PrestaShop (Modificar módulos) CRM a medida. Laravel\r\nSEO y marketing\r\n', '2024-01-30 13:13:03', '2024-01-30 13:13:03'),
+(8, 'Medano Solution', 'https://medanosol.es/es', 'online', 'Desarrollo de WebApp. React, typescript, tailwind, mongo, docker, graphQL\r\n', '2024-01-30 13:13:03', '2024-01-30 13:13:03'),
+(9, 'Conectatec', 'https://www.conectatec.com/ ', 'presencial', 'Innovación y marketing para hoteles. Desarrollo y mantenimiento de Webs, WebApps.', '2024-01-30 13:16:30', '2024-01-30 13:16:30'),
+(10, 'Blue Grow', 'https://thebluegrow.com/', 'online', 'Presencia Web y posicionamiento. Estrategias de marketing. Wordpress / Elementor / Plugins\r\nSEO y marketing Diseño web.\r\n', '2024-01-30 13:16:30', '2024-01-30 13:16:30'),
+(11, 'Nexo365', 'https://nexo365.com', 'presencial', 'Instalación y mantenimiento de alarmas, seguridad, TPV. Desarrollo de App propia (CRM)\r\n', '2024-01-30 13:17:58', '2024-01-30 13:17:58'),
+(12, 'Turitop', 'https://www.turitop.com/es/', 'online', 'Presencia Web y posicionamiento. Gestión de reserva de eventos. Wordpress / Módulos propios\r\n', '2024-01-30 13:17:58', '2024-01-30 13:17:58'),
+(12, 'Telepizza', 'https://www.telepizza.es/', 'presencial', 'Dedicada a la realización de pizza y servicio a domicilio. Su secreto está en la masa.\r\n', '2024-01-30 13:17:58', '2024-01-30 13:17:58');
 
 -- --------------------------------------------------------
 
@@ -81,24 +82,24 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `name`, `password`, `profesor`, `created_at`, `updated_at`) VALUES
 (1, 'Andrés', '123', 1, '2023-01-26 16:45:22', '2023-01-26 16:45:22'),
 (2, 'Markus', '123', 0, '2023-01-26 16:45:22', '2023-01-26 16:45:22'),
-(3, 'David', '123', 0, '2023-01-27 12:54:18', '2023-01-27 12:54:18'),
-(4, 'Victor', '123', 0, '2023-01-27 12:54:18', '2023-01-27 12:54:18'),
-(5, 'Marcos', '123', 0, '2023-01-27 12:55:04', '2023-01-27 12:55:04'),
-(6, 'Khalifa', '123', 0, '2023-01-27 12:55:04', '2023-01-27 12:55:04'),
-(7, 'Minghai', '123', 0, '2023-01-27 12:55:39', '2023-01-27 12:55:39'),
-(8, 'José', '123', 0, '2023-01-27 12:55:39', '2023-01-27 12:55:39'),
-(9, 'Atteneri', '123', 0, '2023-01-27 12:56:01', '2023-01-27 12:56:01'),
-(10, 'Raúl', '123', 0, '2023-01-27 12:56:01', '2023-01-27 12:56:01'),
-(11, 'Andrew', '123', 0, '2023-01-27 12:56:27', '2023-01-27 12:56:27'),
-(12, 'Tati', '123', 0, '2023-01-27 12:56:27', '2023-01-27 12:56:27'),
-(13, 'Airam', '123', 0, '2023-01-27 12:56:50', '2023-01-27 12:56:50'),
-(14, 'Jorge', '123', 0, '2023-01-27 12:56:50', '2023-01-27 12:56:50'),
-(15, 'Adexe', '123', 0, '2023-01-27 12:57:49', '2023-01-27 12:57:49'),
-(16, 'César', '123', 0, '2023-01-27 12:57:49', '2023-01-27 12:57:49'),
-(17, 'Cristo', '123', 0, '2023-01-27 12:57:49', '2023-01-27 12:57:49'),
-(18, 'Elena', '123', 1, '2023-01-27 13:00:39', '2023-01-27 13:00:39'),
-(19, 'Eva', '123', 1, '2023-01-27 13:00:39', '2023-01-27 13:00:39'),
-(20, 'Ángel', '123', 1, '2023-01-27 13:00:39', '2023-01-27 13:00:39');
+(3, 'David', '123', 0, '2024-01-30 12:54:18', '2024-01-30 12:54:18'),
+(4, 'Victor', '123', 0, '2024-01-30 12:54:18', '2024-01-30 12:54:18'),
+(5, 'Marcos', '123', 0, '2024-01-30 12:55:04', '2024-01-30 12:55:04'),
+(6, 'Khalifa', '123', 0, '2024-01-30 12:55:04', '2024-01-30 12:55:04'),
+(7, 'Minghai', '123', 0, '2024-01-30 12:55:39', '2024-01-30 12:55:39'),
+(8, 'José', '123', 0, '2024-01-30 12:55:39', '2024-01-30 12:55:39'),
+(9, 'Atteneri', '123', 0, '2024-01-30 12:56:01', '2024-01-30 12:56:01'),
+(10, 'Raúl', '123', 0, '2024-01-30 12:56:01', '2024-01-30 12:56:01'),
+(11, 'Andrew', '123', 0, '2024-01-30 12:56:27', '2024-01-30 12:56:27'),
+(12, 'Tati', '123', 0, '2024-01-30 12:56:27', '2024-01-30 12:56:27'),
+(13, 'Airam', '123', 0, '2024-01-30 12:56:50', '2024-01-30 12:56:50'),
+(14, 'Jorge', '123', 0, '2024-01-30 12:56:50', '2024-01-30 12:56:50'),
+(15, 'Adexe', '123', 0, '2024-01-30 12:57:49', '2024-01-30 12:57:49'),
+(16, 'César', '123', 0, '2024-01-30 12:57:49', '2024-01-30 12:57:49'),
+(17, 'Cristo', '123', 0, '2024-01-30 12:57:49', '2024-01-30 12:57:49'),
+(18, 'Elena', '123', 1, '2024-01-30 13:00:39', '2024-01-30 13:00:39'),
+(19, 'Eva', '123', 1, '2024-01-30 13:00:39', '2024-01-30 13:00:39'),
+(20, 'Ángel', '123', 1, '2024-01-30 13:00:39', '2024-01-30 13:00:39');
 
 --
 -- Índices para tablas volcadas
