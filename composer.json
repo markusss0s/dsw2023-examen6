@@ -1,8 +1,12 @@
 {
-    "name": "dsw/fct",
-    "description": "Gestor de empresas de FCT",
-    "type": "project",
-    "license": "GNU/GPL",
+    "name": "dsw/dsw2023-examen6",
+    "type": "prject",
+    "require": {
+        "illuminate/database": "^10.43",
+        "jenssegers/blade": "^2.0",
+        "altorouter/altorouter": "^2.0",
+        "vlucas/phpdotenv": "^5.6"
+    },
     "autoload": {
         "psr-4": {
             "Dsw\\Fct\\": "src/"
@@ -10,18 +14,8 @@
     },
     "authors": [
         {
-            "name": "Andrés"
+            "name": "Markus",
+            "email": "abramianmedina@gmail.com"
         }
-    ],
-    "require": {
-        "illuminate/database": "^10.40",
-        "jenssegers/blade": "^2.0",
-        "altorouter/altorouter": "^2.0",
-        "vlucas/phpdotenv": "^5.6"
-    },
-    "config": {
-        "allow-plugins": {
-            "kylekatarnls/update-helper": true
-        }
-    }
+    ]
 }
